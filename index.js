@@ -45,7 +45,7 @@ push.addEventListener("click", () => {
     }
 
     // If the stack is full
-    if (stack.length == 5) {
+    if (stack.length == 7) {
         input.value = "";
         massage.innerHTML = "Stack Overflow";
         massageBox.classList.add("error-massage");
